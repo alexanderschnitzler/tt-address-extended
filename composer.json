@@ -1,0 +1,18 @@
+{
+    "name": "schnitzler/tt-address-extended",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "license": "MIT",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Schnitzler\\TtAddressExtended\\": "Classes"
+        }
+    },
+    "replace": {
+        "tt_address_extended": "self.version"
+    }
+}
