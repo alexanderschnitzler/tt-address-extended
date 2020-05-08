@@ -14,7 +14,7 @@ use FriendsOfTYPO3\TtAddress\Domain\Model\Address;
 
 class ExtendedAddress extends Address
 {
-    protected string $custom = '';
+    protected $custom = '';
 
     public function getCustom(): string
     {

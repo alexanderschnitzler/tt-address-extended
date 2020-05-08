@@ -17,7 +17,7 @@ use TYPO3\CMS\Extbase\Utility\DebuggerUtility;
 
 class AddressController extends ActionController
 {
-    private AddressRepository $addressRepository;
+    private $addressRepository;
 
     public function __construct(AddressRepository $addressRepository)
     {
