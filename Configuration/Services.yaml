@@ -1,0 +1,3 @@
+services:
+  FriendsOfTYPO3\TtAddress\Domain\Model\Address:
+    alias: Schnitzler\TtAddressExtended\Domain\Model\ExtendedAddress
